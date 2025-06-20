@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+.sidebar-gradient {
+  background: linear-gradient(
+    111.84deg,
+    rgba(6, 11, 38, 0.94) 59.3%,
+    rgba(26, 31, 55, 0) 100%
+  );
+}
+
+.body-gradient {
+  background: linear-gradient(
+    159.02deg,
+    #0f123b 14.25%,
+    #090d2e 56.45%,
+    #020515 86.14%
+  );
+}
+
+.satisfaction-gradient {
+  background: linear-gradient(
+    127.09deg,
+    rgba(6, 11, 40, 0.94) 19.41%,
+    rgba(10, 14, 35, 0.49) 76.65%
+  );
+}
+
+.referral-gradient {
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74) 28.26%,
+    rgba(14, 21, 58, 0.71) 91.2%
+  );
+}
+
+.sales-gradient {
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 40, 0.74) 28.26%,
+    rgba(10, 14, 35, 0.71) 91.2%
+  );
+}
+.activeUsers-gradient {
+  background: linear-gradient(
+    126.97deg,
+    #060c29 28.26%,
+    rgba(4, 12, 48, 0.5) 91.2%
+  );
+}
+
+.invited-bonus-gradient {
+  background: linear-gradient(
+    126.97deg,
+    #060c29 28.26%,
+    rgba(4, 12, 48, 0.5) 91.2%
+  );
+}
+
+.card-gradient {
+  background: linear-gradient(
+    126.97deg,
+    rgba(6, 11, 38, 0.74) 28.26%,
+    rgba(26, 31, 55, 0.5) 91.2%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b3650;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f172a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
